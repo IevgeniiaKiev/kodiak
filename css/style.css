@@ -49,9 +49,13 @@
 
 @media screen and (min-width: 768px) {
   .header {
-    background-size: 95px;
+    background-size: 86px;
     background-position: right 25px top 10px;
   }
+}
+
+.header a {
+  color: transparent;
 }
 
 .header__logo {
@@ -178,7 +182,7 @@
 .tab__item {
   display: table-cell;
   min-width: 120px;
-  padding: 70px 0 25px 0;
+  padding: 60px 0 20px 0;
   font-weight: 700;
   font-size: 14px;
   text-align: center;
@@ -186,7 +190,7 @@
   color: #7b8088;
   border: 1px solid #d0d0d0;
   background-repeat: no-repeat;
-  background-position: center 25px;
+  background-position: center 20px;
   cursor: pointer;
   -webkit-transition: all ease-in 0.2s;
   transition: all ease-in 0.2s;
@@ -455,9 +459,9 @@
 
 .step__item span {
   display: block;
-  width: 24px;
-  height: 24px;
-  line-height: 18px;
+  width: 28px;
+  height: 28px;
+  line-height: 22px;
   border-radius: 50%;
   border: 3px solid #354447;
   text-align: center;
