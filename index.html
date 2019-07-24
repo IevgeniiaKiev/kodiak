@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodiak</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <a href="#"><img class="header__logo" src="img/logo.png" alt="Kodiak Contract Renewal"></a>
+        <p class="header__text">For the 2019-20 Winter Season</p>
+      </div>
+<!--OVERVIEW-->
+      <div class="overview">
+        <div class="overview_left">
+          <h2>Renewal Overview</h2>
+
+          <p class="overview__text">Amount: <span>$395.00</span></p>
+          <p class="overview__text">Tax (13%): <span>$51.35</span></p>
+          <p class="overview__text">Total: <span>$446.35</span></p>
+        </div>
+
+        <div class="overview_right">
+          <p class="overview__year">2019-2020 Snow Removal Service</p>
+          <p class="overview__currency">This is a single payment made in Canadian Dollars.</p>
+        </div>
+      </div>
+<!--END OVERVIEW-->
+<!--PAYMENT-->
+      <div class="payment">
+        <h3>How would you like to pay?</h3>
+
+        <div class="wrap-tabs">
+          <ul class="tabs">
+            <li class="tab__item tab__item_bank tab__item_bank_active tab__item_active" data-tab="tab1" id="first">From Your<br> Bank Account</li>
+            <li class="tab__item tab__item_interac" data-tab="tab2" id="second">Interac<br> e-Transfer</li>
+            <li class="tab__item tab__item_card" data-tab="tab3" id="third">With A<br> Credit Card</li>
+          </ul>
+        </div>
+<!--TAB1-->
+        <div class="tab-content tab-content_active" id="tab1">
+          <p class="payment__text">Pay directly from your bank account using secure <span>Interac</span> Online technology</p>
+
+          <ul class="banks">
+            <li class="bank__item"><img src="img/bank1.png" alt="Bank1"></li>
+            <li class="bank__item"><img src="img/bank2.png" alt="Bank2"></li>
+            <li class="bank__item"><img src="img/bank3.png" alt="Bank3"></li>
+            <li class="bank__item"><img src="img/bank4.png" alt="Bank4"></li>
+            <li class="bank__item"><img src="img/bank5.png" alt="Bank5"></li>
+          </ul>
+
+          <label class="check-container">I agree to the Kodiak Snow Removal <a href="#" target="_blank">Terms of Service</a>
+           <input class="checkbox checkbox_bank" type="checkbox">
+           <span class="checkmark"></span>
+          </label>
+
+          <a class="button" href="#" id="buttonBank">Continue</a>
+        </div>
+<!--END TAB1-->
+<!--TAB2-->
+        <div class="tab-content tab-content_transfer" id="tab2">
+          <p class="text-15">If you are signed up for online banking with your financial institution, you can send us an email money transfer:</p>
+
+          <ul class="steps">
+            <li class="step__item"><span>1</span> Login into your online banking software and select the 'e-Transfer' option. Add Kodiak as a 'Contact' and insert info@kodiaksnow.ca as our email.</li>
+            <li class="step__item"><span>2</span> Choose 'Send Money' while on your e-Transfer home screen. Select Kodiak as the contact you wish to send money to.</li>
+            <li class="step__item"><span>3</span> In the 'Message/Notes' area of the e-Transfer you are sending, please include the servise address you are paying for.</li>
+            <li class="step__item"><span>4</span> If prompted to include a password with your payment, please use your Kodiak Snowblowing Contract #.</li>
+          </ul>
+        </div>
+<!--END TAB2-->
+<!--TAB3-->
+        <div class="tab-content" id="tab3">
+          <p class="text-15">Pay with your VISA, MasterCard or PayPal account</p>
+          <img class="img-payments" src="img/payments.png" alt="Secure Payments by PayPal">
+
+          <label class="check-container">I agree to the Kodiak Snow Removal <a href="#" target="_blank">Terms of Service</a>
+           <input class="checkbox_paypal" type="checkbox">
+           <span class="checkmark"></span>
+          </label>
+
+          <a class="button" href="#" id="buttonPayPal">Continue to PayPal</a>
+        </div>
+<!--END TAB3-->
+      </div>
+<!--END PAYMENT-->
+    </div>
+
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="js/tabs.js"></script>
+  <script src="js/button.js"></script>
+  </body>
+</html>
